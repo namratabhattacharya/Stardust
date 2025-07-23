@@ -1,48 +1,58 @@
-# Stardust: Simultaneous visualisation of cells and marker genes from scRNA-seq studies
+# ⭐ Stardust: Simultaneous Visualisation of Cells and Marker Genes from scRNA-seq Studies
 
-Python package for cell-gene coembedding and analysis pipeline for single cell transcriptomics data. It enables simultaneous representation of cells and marker genes, preserving both transcriptional similarity and inferred spatial proximity.
+**Stardust** is a Python package for cell-gene co-embedding and downstream analysis of single-cell transcriptomics data. It enables simultaneous representation of cells and marker genes, preserving both transcriptional similarity and inferred spatial proximity.
 
--   [Installation](#installation-guide)
--   [Dataset Format](#dataset_support_format)
--   [Usage](#usage)
--   [Tutorial](#vignette-tutorial)
-       -  [Co-embedding](#cell-gene-co-embedding)
-   -   [Analysis](#analysis)
-       -  [Silhouette](#silhouette-co-efficient)
-       -  [Marker Heatmap](#marker-heatmap)
-       -  [Alluvial](#alluvial-plot)
-       -  
-For thorough details, see our paper: [https://www.biorxiv.org/content/10.1101/2022.12.27.521966v2](https://www.biorxiv.org/content/10.1101/2022.12.27.521966v2) 
+📖 For thorough details, refer to our paper: [bioRxiv link](https://www.biorxiv.org/content/10.1101/2022.12.27.521966v2)
 
-## Environment requirements
+---
 
-To install the Stardust package, you must make sure that your Python version is 3.7 or above with setuptools installed.
+## Table of Contents
+- [Environment Requirements](#environment-requirements)
+- [Installation Guide](#installation-guide)
+- [Supported Dataset Formats](#supported-dataset-formats)
+- [Usage](#usage)
+- [Tutorial](#vignette-tutorial)
+  - [Co-embedding](#cell-gene-co-embedding)
+  - [Analysis](#analysis)
+- [Output Directory Structure](#output-directory-structure)
+- [Contributing](#contributing)
+
+---
+
+## Environment Requirements
+
+- Python 3.7 or above
+- `setuptools` must be installed
+
+---
 
 ## Installation Guide
-Step 1: Download the package directly from GitHub. For linux users
+  
+**Step 1:** Download the package directly from GitHub. For Linux users
 ```bash
 https://github.com/namratabhattacharya/Stardust.git
 ```
-Step 2: Download the binary openOrd.jar from the release tag v1.0 and place it under Stardust_package/stardust/run_stardust/
+**Step 2:** Download the binary openOrd.jar from the release tag v1.0 and place it under Stardust_package/stardust/run_stardust/
 
-Step 3. Change the directory to the package directory
+**Step 3:** Change the directory to the package directory
 ```bash
 cd Stardust_package/
 ```
-Step 4: Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the package.
+**Step 4:** Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the package.
 ```bash
 pip install .
 ```
 
-## Dataset support format
-
+## Supported dataset format
 Stardust accepts single-cell expression data in the following formats:
-	•	CSV Format:
-A gene expression matrix file named expression.csv, with cells as rows and genes as columns.
-🔹 An example dataset is provided in the example_data/csv/ folder.
-	•	10x Genomics Format:
-Standard .10x output files from the 10x Genomics Cell Ranger pipeline.
-🔹 An example dataset is provided in the example_data/10x/ folder.
+
+- **CSV Format**  
+  A gene expression matrix file named `expression.csv`, with **cells as rows** and **genes as columns**.  
+  - *An example dataset is provided in the `example_data/csv/` folder.*
+
+- **10x Genomics Format**  
+  Standard `.10x` output files from the 10x Genomics Cell Ranger pipeline.  
+  - *An example dataset is provided in the `example_data/10x/` folder.*
 
 ## Usage
 
