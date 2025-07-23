@@ -1,6 +1,6 @@
-# Stardust : Simultaneous visualization of cells and marker genes from scRNA-seq studies
+# Stardust: Simultaneous visualisation of cells and marker genes from scRNA-seq studies
 
-Python package for cell-gene coembedding and analysis pipeline for single cell transcriptomics data
+Python package for cell-gene coembedding and analysis pipeline for single cell transcriptomics data. It enables simultaneous representation of cells and marker genes, preserving both transcriptional similarity and inferred spatial proximity.
 
 -   [Installation](#installation-guide)
 -   [Dataset Format](#dataset_support_format)
@@ -11,7 +11,8 @@ Python package for cell-gene coembedding and analysis pipeline for single cell t
        -  [Silhouette](#silhouette-co-efficient)
        -  [Marker Heatmap](#marker-heatmap)
        -  [Alluvial](#alluvial-plot)
-       
+       -  
+For thorough details, see our paper: [https://www.biorxiv.org/content/10.1101/2022.12.27.521966v2](https://www.biorxiv.org/content/10.1101/2022.12.27.521966v2) 
 ## Environment reqirements
 
 Pyhton 3.7 or above with setuptools instaled.
