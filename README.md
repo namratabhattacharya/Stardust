@@ -1,4 +1,4 @@
-# ⭐ Stardust: Simultaneous Visualisation of Cells and Marker Genes from scRNA-seq Studies
+# Stardust: Simultaneous Visualisation of Cells and Marker Genes from scRNA-seq Studies
 
 **Stardust** is a Python package for cell-gene co-embedding and downstream analysis of single-cell transcriptomics data. It enables simultaneous representation of cells and marker genes, preserving both transcriptional similarity and inferred spatial proximity.
 
