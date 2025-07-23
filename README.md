@@ -59,19 +59,22 @@ Stardust accepts single-cell expression data in the following formats:
 ```python
 import stardust
 
-stardust.run_stardust.run() #generated the coembedding plots under Stardust_resuts/visualization_output/4_pass.
-stardust.analysis.silhouette() # optional for analysis purpose
-stardust.analysis.heatmap()   # optional for analysis purpose
-stardust.analysis.alluvial()  # optional for analysis purpose
+# Generate co-embedding plots
+stardust.run_stardust.run()
+
+# Further downstream analysis (Optional)
+stardust.analysis.silhouette() #This function calculates the silhouette coefficient for the embedded cells.
+stardust.analysis.heatmap() #This function generates a marker gene heatmap.
+stardust.analysis.alluvial() #This function creates an alluvial (flow) plot.
 ```
 Outputs are saved under:
-Stardust_results/visualization_output/4_pass/
+**Stardust_results/visualization_output/4_pass/**
 
 ## Vignette tutorial
 This vignette uses a melanoma data set from the website [here](https://singlecell.broadinstitute.org/single_cell/study/SCP11/melanoma-intra-tumor-heterogeneity) to demonstrate a standard pipeline. This vignette can be used as a tutorial as well.
 
 ### cell-gene co-embedding
-To reproduce the cell-gene co-embedding visualisation ,you need to run the following commands
+To reproduce the cell-gene co-embedding visualisation,you need to run the following commands
 
 ```python
 import stardust
