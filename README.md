@@ -2,7 +2,7 @@
 
 **Stardust** is a Python package for cell-gene co-embedding and downstream analysis of single-cell transcriptomics data. It enables simultaneous representation of cells and marker genes, preserving both transcriptional similarity and inferred spatial proximity.
 
-📖 For thorough details, refer to our paper: [bioRxiv link](https://www.biorxiv.org/content/10.1101/2022.12.27.521966v2)
+For thorough details, refer to our paper: [bioRxiv link](https://www.biorxiv.org/content/10.1101/2022.12.27.521966v2)
 
 ---
 
