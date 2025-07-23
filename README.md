@@ -19,26 +19,30 @@ For thorough details, see our paper: [https://www.biorxiv.org/content/10.1101/20
 To install the Stardust package, you must make sure that your Python version is 3.7 or above with setuptools installed.
 
 ## Installation Guide
-
-Download the package directly from GitHub. For linux users
+Step 1: Download the package directly from GitHub. For linux users
 ```bash
-https://github.com/Swagatam123/Stardust_package.git
+https://github.com/namratabhattacharya/Stardust.git
 ```
-Download the binary openOrd.jar from the release tag v1.0 and place it under Stardust_package/stardust/run_stardust/
-Change the directory to the package directory
+Step 2: Download the binary openOrd.jar from the release tag v1.0 and place it under Stardust_package/stardust/run_stardust/
+
+Step 3. Change the directory to the package directory
 ```bash
 cd Stardust_package/
 ```
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the package.
-
+Step 4: Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the package.
 ```bash
 pip install .
 ```
 
 ## Dataset support format
 
-The package supports 10x genomics data with .10x file format and a csv file with the filename expression.csv
-The expression data should contain the cells rowwise and genes columnwise.
+Stardust accepts single-cell expression data in the following formats:
+	•	CSV Format:
+A gene expression matrix file named expression.csv, with cells as rows and genes as columns.
+🔹 An example dataset is provided in the example_data/csv/ folder.
+	•	10x Genomics Format:
+Standard .10x output files from the 10x Genomics Cell Ranger pipeline.
+🔹 An example dataset is provided in the example_data/10x/ folder.
 
 ## Usage
 
@@ -50,6 +54,9 @@ stardust.analysis.silhouette() # optional for analysis purpose
 stardust.analysis.heatmap()   # optional for analysis purpose
 stardust.analysis.alluvial()  # optional for analysis purpose
 ```
+Outputs are saved under:
+Stardust_results/visualization_output/4_pass/
+
 ## Vignette tutorial
 This vignette uses a melanoma data set from the website [here](https://singlecell.broadinstitute.org/single_cell/study/SCP11/melanoma-intra-tumor-heterogeneity) to demonstrate a standard pipeline. This vignette can be used as a tutorial as well.
 
@@ -87,8 +94,11 @@ stardust.analysis.alluvial()
 ```
 ![alt text](blob/alluvial_gold.png)<!-- -->
 ## Output Directory structure
-The embedding plots for its related data will be available in Stardust_results/visualization_output/4_pass
+	•	Stardust_results/visualization_output/4_pass:
+Contains co-embedding plots, CSV outputs, and layout files
+	•	Stardust_results/analysis/:
+Contains silhouette scores, marker gene heatmaps, and alluvial diagrams
 
 ## Contributing
-Souce code: [Github](https://github.com/cellsemantics/SCellBOW)  
+Souce code: [Github](https://github.com/namratabhattacharya/Stardust.git)  
 For further information, contact debarka@iiitd.ac.in or n.bhattacharya@qut.eu.au. 
