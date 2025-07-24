@@ -107,9 +107,9 @@ stardust.analysis.alluvial()
 ```
 ![alt text](blob/alluvial_gold.png)<!-- -->
 ## Output Directory structure
-	•	Stardust_results/visualization_output/4_pass:
+- **Stardust_results/visualization_output/4_pass**
 Contains co-embedding plots, CSV outputs, and layout files
-	•	Stardust_results/analysis/:
+- **Stardust_results/analysis/**
 Contains silhouette scores, marker gene heatmaps, and alluvial diagrams
 
 ## Contributing
