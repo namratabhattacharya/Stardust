@@ -36,11 +36,11 @@ https://github.com/namratabhattacharya/Stardust.git
 
 **Step 3:** Change the directory to the package directory
 ```bash
-cd Stardust_package/
+cd Stardust/
 ```
-**Step 4:** Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the package.
+**Step 4:** create the environment (Conda ≥4.9).
 ```bash
-pip install .
+conda env create -f environment.yml
 ```
 
 ## Supported dataset format
