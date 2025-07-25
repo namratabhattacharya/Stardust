@@ -90,7 +90,9 @@ NOTE: For CSV file format, the expression file name should be "expression.csv"
 ![alt text](blob/run.PNG)
 
 #### co-embedding on Stardust
-![alt text](blob/sd_color_embedding.png)<!-- -->
+
+<img src="blob/sd_color_embedding.png" alt="co-embedding on Stardust" align="left" width="300"/>
+
 #### co-embedding on UMAP
 ![alt text](blob/umap_color_embedding.png)<!-- -->
 ### analysis
