@@ -91,13 +91,13 @@ NOTE: For CSV file format, the expression file name should be "expression.csv"
 
 #### co-embedding on Stardust
 <p style="text-align: left;">
-  <img src="blob/sd_color_embedding.png" alt="Stardust embedding" width="300"/>
+  <img src="blob/sd_color_embedding.png" alt="Stardust embedding" width="500"/>
 </p>
 
 
 #### co-embedding on UMAP
 <p style="text-align: left;">
-  <img src="blob/umap_color_embedding.png" alt="Stardust embedding" width="300"/>
+  <img src="blob/umap_color_embedding.png" alt="Stardust embedding" width="500"/>
 </p>
 
 ### analysis
