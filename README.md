@@ -42,6 +42,10 @@ cd Stardust/
 ```bash
 conda env create -f environment.yml
 ```
+**step 5:** activate environment
+```bash
+conda activate stardust37
+```
 
 ## Supported dataset format
 Stardust accepts single-cell expression data in the following formats:
