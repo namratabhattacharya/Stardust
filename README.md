@@ -114,7 +114,10 @@ stardust.analysis.silhouette()
 ```python
 stardust.analysis.heatmap()
 ```
-![alt text](blob/heatmap.png)<!-- -->
+<p style="text-align: left;">
+  <img src="blob/heatmap.png" alt="Stardust embedding" width="300"/>
+</p>
+
 #### alluvial plot
 ```python
 stardust.analysis.alluvial()
