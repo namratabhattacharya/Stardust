@@ -118,8 +118,6 @@ stardust.analysis.heatmap()
   <img src="blob/heatmap.png" alt="Stardust embedding" width="500"/>
 </p>
 
-
-![alt text](blob/alluvial_gold.png)<!-- -->
 ## Output Directory structure
 - **Stardust_results/visualization_output/4_pass**
   - Contains co-embedding plots, CSV outputs, and layout files
