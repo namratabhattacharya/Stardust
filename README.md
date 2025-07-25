@@ -115,19 +115,16 @@ stardust.analysis.silhouette()
 stardust.analysis.heatmap()
 ```
 <p style="text-align: left;">
-  <img src="blob/heatmap.png" alt="Stardust embedding" width="300"/>
+  <img src="blob/heatmap.png" alt="Stardust embedding" width="500"/>
 </p>
 
-#### alluvial plot
-```python
-stardust.analysis.alluvial()
-```
+
 ![alt text](blob/alluvial_gold.png)<!-- -->
 ## Output Directory structure
 - **Stardust_results/visualization_output/4_pass**
   - Contains co-embedding plots, CSV outputs, and layout files
 - **Stardust_results/analysis/**
-  - Contains silhouette scores, marker gene heatmaps, and alluvial diagrams
+  - Contains silhouette scores, marker gene heatmaps
 
 ## Contributing
 Souce code: [Github](https://github.com/namratabhattacharya/Stardust.git)  
