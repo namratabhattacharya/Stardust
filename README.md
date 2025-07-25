@@ -90,10 +90,17 @@ NOTE: For CSV file format, the expression file name should be "expression.csv"
 ![alt text](blob/run.PNG)
 
 #### co-embedding on Stardust
-![alt text](blob/sd_color_embedding.png)<!-- -->
+<p style="text-align: left;">
+  <img src="blob/sd_color_embedding.png" alt="Stardust embedding" width="300"/>
+</p>
+
 
 #### co-embedding on UMAP
-![alt text](blob/umap_color_embedding.png)<!-- -->
+<p float="left">
+  <img src="blob/sd_color_embedding.png" width="300"/>
+  <img src="blob/umap_color_embedding.png" width="300"/>
+</p>
+
 ### analysis
 NOTE: To run the analysis functions, you need to run the cell-gene co-embedding. 
 #### silhouette co-efficient
