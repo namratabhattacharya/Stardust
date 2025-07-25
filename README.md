@@ -118,6 +118,11 @@ stardust.analysis.heatmap()
   <img src="blob/heatmap.png" alt="Stardust embedding" width="500"/>
 </p>
 
+#### clustering_metrics.py — quantify clustering quality (NMI, ARI)
+Compare Stardust clusters with Scanpy Louvain clusters
+```bash
+python clustering_metrics.py
+```
 ## Output Directory structure
 - **Stardust_results/visualization_output/4_pass**
   - Contains co-embedding plots, CSV outputs, and layout files
